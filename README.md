@@ -1,2 +1,3 @@
 # qemu-user-static
-QEMU + binfmt_misc
+
+This repo implements a subset of `multiarch/qemu-user-static` with updated QEMU static binaries (v9.1.0) from Debian Unstable.
