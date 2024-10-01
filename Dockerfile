@@ -1,4 +1,4 @@
-FROM debian:unstable AS base
+FROM debian:testing AS base
 
 RUN apt update -y && apt install -yf qemu-user-static
 ADD https://raw.githubusercontent.com/qemu/qemu/v9.1.0/scripts/qemu-binfmt-conf.sh /qemu-binfmt-conf.sh
